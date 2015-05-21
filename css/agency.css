@@ -274,54 +274,31 @@ header {
     background-image: url(../img/desk.jpg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    -webkit-background-size: 100vw 100vh;
-    -moz-background-size: 100vw 100vh;
-    background-size: 100vw 100vh;
-    -o-background-size: 100vw 100vh;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
     height: 100vh;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 40px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 40px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: initial;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
 }
 
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-heading {
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
 
 section {
     padding: 100px 0;
